@@ -91,10 +91,10 @@ end
 </pre>
 
 - Time: O(n), Space: O(1)
-  - Err Mehrr Gerrd! You got it!! Time complexity is O(n) because the number of iterations through the while loop is directly proportional to the input value `num`, and that's the weakest link. The space complexity is constant. It doesn't matter if `n` is 0 or 100, this algorithm always relies on the same amount of data: an integer input, an array with two elements, and a variable to track the iterations. 
+  - Err Mehrr Gerrd! You got it!! Time complexity is O(n) because the number of iterations through the while loop is directly proportional to the input value <code>num</code>, and that's the weakest link. The space complexity is constant. It doesn't matter if <code>n</code> is 0 or 100, this algorithm always relies on the same amount of data: an integer input, an array with two elements, and a variable to track the iterations. 
 - Time: O(n), Space: O(n)
-  - Not quite. The time complexity is linear because the number of iterations through the while loop is directly proportional to the input value `num`. However, the amount of space used doesn't change with the input size. Think about what this algorithm stores if the input is 2 versus 10.
+  - Not quite. The time complexity is linear because the number of iterations through the while loop is directly proportional to the input value <code>num</code>. However, the amount of space used doesn't change with the input size. Think about what this algorithm stores if the input is 2 versus 10.
 - Time: O(1), Space: O(2n)
-  - Not quite. Take a look at the while loop. How many iterations will occur if `num` is 3 versus 5? Also think about what's being stored as the input grows. Is the amount of space required changing? Does the array (`lastTwo`, `last_two`) ever change in length?
+  - Not quite. Take a look at the while loop. How many iterations will occur if <code>num</code> is 3 versus 5? Also think about what's being stored as the input grows. Is the amount of space required changing? Does the array (<code>lastTwo</code>, <code>last_two</code>) ever change in length?
 - I don't know
   - Don't worry. With time and practice, it'll start to sink in.
